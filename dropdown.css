@@ -1,0 +1,58 @@
+body{
+    background-color: rgba(30, 143, 255, 0.836);
+}
+
+
+
+
+
+
+.navbar{
+    background-color: hotpink;
+    display: flex;
+    gap: 10px;
+    height: 40px;
+}
+
+.navbar *{
+    color: black;
+    text-decoration: none;
+    background-color: rgba(0, 255, 255, 0.26);
+    display: flex;
+    align-items: center;
+}
+
+.navbar  a:hover{
+    background-color: rgb(113, 255, 47);
+}
+
+.dropdown div{
+    position: absolute;
+    display: none;
+    flex-direction:column;
+    margin-top: 92px;
+}
+.dropdown:hover{
+    background-color: rgb(113, 255, 47);
+}
+.dropdown:hover div{
+    display: flex;
+
+}
+
+@media(max-width: 1000px){
+
+    body{
+        background-color:rgba(238, 130, 238, 0.479);
+    }
+}
+
+@media(max-width: 600px){
+
+    body{
+        background-color:cyan;
+    }
+}
+
+
+

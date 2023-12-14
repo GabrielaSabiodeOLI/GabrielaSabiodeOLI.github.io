@@ -1,0 +1,42 @@
+body{
+    background-color: darkolivegreen;
+}
+
+.navbar{
+    background-color: rgb(206, 38, 38);
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    height: 25px;
+    align-items: center;
+    padding: 3px;
+}
+
+.navbar a{
+    background-color: aquamarine;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    padding: 3px;
+}
+
+.posts > *{
+    
+    color: rgb(255, 30, 0);
+    font-size: 100px;
+    background-color: rgb(134, 211, 134);
+    height: 100px;
+    border-radius: 20px pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.posts {
+    background-color: darkolivegreen;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}

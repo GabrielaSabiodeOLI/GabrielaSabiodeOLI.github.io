@@ -1,0 +1,38 @@
+.navbar{
+    background-color: rgb(9, 148, 101);
+    display: flex;
+    height: 40px;
+    gap: 15px;
+     justify-content: space-between;
+   
+   
+}
+.navbar div{
+    display:flex;
+}
+.navbar a{
+    background-color: rgb(61, 194, 90);
+     color:rgb(3, 88, 128);
+    text-decoration: none;
+    display: flex;
+    align-items:center;
+    padding: 0 10px;
+}
+
+.navbar a:hover{
+    background-color: rgb(18, 177, 177);
+    text-decoration: underline;
+}
+
+#home {
+    background-color:rgb(107, 243, 164);
+}
+
+.navbar input{
+    background-color: rgb(107, 243, 164);
+    border:5px solide green;
+    padding: 0 8px;
+    border-radius: 5px;
+    
+
+}
