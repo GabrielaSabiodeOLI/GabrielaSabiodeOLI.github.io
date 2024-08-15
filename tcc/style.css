@@ -1,0 +1,198 @@
+body{
+    margin: 0%;
+    background-color:rgb(243, 233, 107);
+
+}
+
+.navbar{
+    background-color: rgb(255, 156, 34);
+    display: flex;
+    height: 70px;
+    gap: 15px;
+     justify-content:space-between;
+   
+   
+}
+.navbar div{
+    display:flex;
+}
+.navbar a{
+    background-color: rgb(255, 156, 34);
+     color: darkred;
+    text-decoration: none;
+    display: flex;
+    align-items:center;
+    padding: 0 10px;
+    font-size:20px;
+    
+}
+
+.navbar a:hover{
+    background-color: rgb(211, 36, 36);
+    text-decoration: underline;
+}
+
+#home {
+    background-color: rgb(211, 35, 36);
+}
+.navbar > img{
+    height: 70px;
+    
+}
+.navbar input{
+    background-color: rgb(211, 35, 36) ;
+    border: 2px solid darkred;
+    padding: 0 8px;
+
+}
+
+.navbar input::placeholder{
+    color: rgb(77, 2, 2);
+    
+}
+
+.container{
+    font-size:20px;
+    padding: 15px;
+    border: 5px solid  rgb(255, 156, 34);
+    margin: 30px;
+    color:  darkred;
+    display:flex;
+    flex-direction:  row;
+    justify-content:space-between;
+    gap:25px;
+}
+.container > img{
+    height: 200px;
+
+}
+.container > p {
+    font-size:20px;
+}
+.container:hover{
+    border: 5px solid rgb(255, 156, 34);
+}
+.container1{
+    padding: 15px;
+    font-size:20px;
+    margin: 30px;
+    color: darkred;
+    display:flex;
+    flex-direction:  row;
+    justify-content:center;
+    gap:25px;
+}
+.container2{
+    padding: 15px;
+    font-size:20px;
+    margin: 30px;
+    color: darkred;
+    display:flex;
+    flex-direction:  row;
+    justify-content:space-between;
+    align-items: center;
+    gap:25px;
+}
+
+
+.restaurantes{
+     display: flex;
+    justify-content: space-around;
+}
+
+.restaurantes > a{
+    border: 5px solid rgb(255, 156, 34);
+    display: flex;
+    flex-direction: column-reverse;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.restaurantes > a > label{
+    cursor: pointer;
+}
+
+.restaurantes > a:hover{
+    border:5px solid  rgb(255, 156, 34);
+    scale: 1.1;
+}
+
+.restaurantes > a > img{
+
+    height:200px;
+    width: 200px;
+
+}
+
+.restaurantes > a > label{
+    padding: 3px;
+    text-align: center;
+    font-size: 25px;
+    color:darkred;
+  
+}
+
+#p1{
+    border: 5px solid rgb(175, 5, 5);
+    color: rgb(14, 87, 14);
+}
+
+#p2{
+    border: 5px solid green;
+    color:rgb(175, 5, 5);
+}
+
+#p3{
+    color:rgb(226, 161, 19);
+}
+#p{
+    color: rgb(175, 5, 5);
+}
+
+#piatto{
+    background-color: hwb(0 92% 8%);
+}
+
+#okinawa{
+    background-color: black;
+}
+
+#o3{
+    color:rgb(187, 32, 32);
+   
+}
+
+#o2{
+    color:whitesmoke;
+    border: 5px solid rgb(255, 185, 34)
+}
+
+#o1{
+    color:rgb(187, 32, 32);
+    border: 5px solid rgb(255, 185, 34)
+}
+#o{
+    color:rgb(187, 32, 32);
+}
+#madero{
+    background-color: whitesmoke;
+}
+#m{
+    color:black;
+}
+
+#m1{
+    color:black;
+    border: 5px solid rgb(0, 255, 221);
+}
+
+#m2{
+    color:black;
+    border: 5px solid  rgb(0,255,221);
+}
+
+#m3{
+    color:black;
+}
+
